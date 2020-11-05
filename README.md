@@ -13,6 +13,8 @@
 
 
 ## Injecao de dependencia
+	
+	# foi usado para carregar assets nas paginas
 
 
 ## Singleton
