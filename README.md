@@ -1,60 +1,44 @@
+# COLOR PALLET
 
-#
-#
-#
-#	COLOR PALLET
-#
-#
-#	* Geregador de cor em hexadecimal
-#
-#	* opcao de copiar
-#
-#
+### Geregador de cor em hexadecimal
 
 
-## Injecao de dependencia
+
+## Estudos em OOP
+
+
+### Injecao de dependencia
 	
 	# foi usado para carregar assets nas paginas
 
 
-## Singleton
+### Singleton
 
 	# foi usado em helpers para filtrar inputs
 
 
-## Adapter
+### Adapter
 
 
-## Facade
+### Facade
 
 
-## Associacao
+### Associacao
 
 
-## Agregacao
+### Agregacao
 
 
-## Composicao
+### Composicao
+
+	# Usado pra fazer Injecao de dependencia
 
 
-## Interface
+### Interface
+
+	# foi criado uma interface para assets 'IAssets'
 
 
-## Trait
+### Trait
 	
-	# foi criado em traits, para configurar o layout das paginas
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	# foi criado em traits, para o layout das paginas
