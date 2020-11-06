@@ -58,6 +58,7 @@ trait TemplateTrait
 		$this->setAssets( new Assets );
 		$this->addCss('general');
 		$this->addCss('reset');
+		$this->addJs('general');
 	}
 
 

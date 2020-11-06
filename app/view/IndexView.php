@@ -2,37 +2,26 @@
 	<h1>Color palette generator</h1>
 
 
+	<div>
 	<ul>
-		<li>
-			<span style="background-color:#F9ACA7"></span>
-			<p>#F9ACA7</p>
-		</li>
-		<li>
-			<span style="background-color:#F9ACA7"></span>
-			<p>#F9ACA7</p>
-		</li>
-		<li>
-			<span style="background-color:#F9ACA7"></span>
-			<p>#F9ACA7</p>
-		</li>
-		<li>
-			<span style="background-color:#F9ACA7"></span>
-			<p>#F9ACA7</p>
-		</li>
-		<li>
-			<span style="background-color:#F9ACA7"></span>
-			<p>#F9ACA7</p>
-		</li>
+		<?= $this->generate() ?>
 	</ul>
 		
+	<ul>
+		<?= $this->generate() ?>
+	</ul>
+	</div>
 
 
-	<form>
-		<button type="submit">Generate palette</button>
-		<label>Or just press the “Spacebar” to generate new palettes.</label>
-	</form>
+	<span>
+		<a href="/">Generate palette</a>
+		<i>Or just press the “Spacebar” to generate new palettes.</i>
+	</span>
 
 
-	<p>Click to copy individual color • Press “C” to copy palette</p>
+	<p>Click to Hex for copy individual color</p>
 
+
+
+	<i id="copied">Copied!</i>
 </main>
