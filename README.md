@@ -4,7 +4,7 @@
 
 <br>
 
-![Color pallet](https://github.com/erickferreir4/color_pallet/blob/master/src/assets/imgs/color_pallet.png?raw=true)
+![Color pallet](https://github.com/erickferreir4/color_pallet/blob/master/app/assets/imgs/color_pallet.png?raw=true)
 
 
 ### Docker
