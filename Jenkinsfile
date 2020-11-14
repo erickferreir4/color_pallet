@@ -16,10 +16,12 @@ pipeline {
 	}
 
 	stage('Deliver') {
-		dir('./color-pallet') {
-			sh 'git add .'
-			sh 'git commit -m"jenkins"'
-			sh 'git push'
+		steps {
+			dir('./color-pallet') {
+				sh 'git add .'
+				sh 'git commit -m"jenkins"'
+				sh 'git push'
+			}
 		}
 	}
 
