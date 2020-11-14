@@ -11,6 +11,17 @@ pipeline {
 			}
 		}
 	}
+
+	stage('test') {
+		steps {
+			dir('./app-test') {
+				sh 'ls'
+			}
+		}
+	}
+
+
+
   }
 }
 
