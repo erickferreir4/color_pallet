@@ -18,4 +18,8 @@ COPY ./app /var/www/html/app
 # 
 
 
+<<<<<<< HEAD
 CMD sed -i "s/80/$PORT/g" /etc/apache2/sites-enabled/000-default.conf /etc/apache2/ports.conf && docker-php-entrypoint apache2-foreground
+=======
+#   CMD sed -i "s/80/$PORT/g" /etc/apache2/sites-enabled/000-default.conf /etc/apache2/ports.conf && docker-php-entrypoint apache2-foreground
+>>>>>>> 97c999227df63f72143b6672da41bcd6a14bf779
